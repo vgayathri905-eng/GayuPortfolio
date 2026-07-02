@@ -19,38 +19,23 @@ import Contact from "../components/sections/Contact";
 function Home() {
   return (
     <>
-      {/* Loader */}
       <Loader />
-
-      {/* Background / Effects */}
       <AnimatedBackground />
       <CursorGlow />
       <ScrollProgress />
 
-      {/* Main Portfolio */}
-      <main className="relative min-h-screen overflow-x-hidden bg-slate-950 text-white">
+      <main className="relative z-10 min-h-screen overflow-x-hidden bg-transparent text-white">
         <Navbar />
-
         <Hero />
-
         <About />
-
         <Experience />
-
         <Education />
-
         <Skills />
-
         <Projects />
-
         <Certificates />
-
         <Services />
-
         <Contact />
-
         <Footer />
-
         <BackToTop />
       </main>
     </>
