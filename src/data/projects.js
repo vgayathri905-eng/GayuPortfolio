@@ -26,6 +26,15 @@ const projects = [
     live: "#",
     github: "#",
   },
+  {
+    id: 4,
+    title: "Employee Management System",
+    description:
+      "A modern and professional employee management system with responsive design, clean sections and attractive user interface.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    live: "https://github.com/vgayathri905-eng/employeefrontend.git",
+    github: "https://github.com/vgayathri905-eng/employeefrontend.git",
+  },
 ];
 
 export default projects;
