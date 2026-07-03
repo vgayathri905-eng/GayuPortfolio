@@ -1,5 +1,13 @@
 const experience = [
   {
+    role: "Frontend Development Intern",
+    company: "CodeAlpha",
+    duration: "Jul 2026 - Jul 2026",
+    location: "Remote",
+    description:
+      "Selected as a Frontend Development Intern at CodeAlpha. Worked on improving frontend development skills through hands-on tasks, practical implementation, UI building and modern web development concepts.",
+  },
+  {
     role: "MERN Stack Developer Trainee",
     company: "AITECH Academy",
     duration: "2025",
